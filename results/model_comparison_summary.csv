@@ -1,0 +1,4 @@
+Pendekatan,Accuracy,Precision_macro,Recall_macro,F1_macro,Precision_negatif,Recall_negatif,F1_negatif,Precision_positif,Recall_positif,F1_positif,Salah_prediksi,Butuh training,Waktu training (s),Latensi per ulasan (ms),Biaya per 1.000 ulasan (USD),Acc. teks baru (GroupKFold)
+Model Klasik (TF-IDF + LogReg),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,Ya,0.016376138999476098,0.034336874978180276,0.0,0.54
+LLM Gemini (zero-shot),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0,Tidak,0.0,234.38666187512354,0.019427500000000004,
+LLM Gemini (few-shot),0.5,1.0,0.5050505050505051,0.6696428571428572,1.0,0.5555555555555556,0.7142857142857143,1.0,0.45454545454545453,0.625,20,Tidak,0.0,678.6291362499469,0.012457499999999998,
